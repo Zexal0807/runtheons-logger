@@ -1,0 +1,22 @@
+{
+  "name": "runtheons-logger",
+  "version": "1.0.0",
+  "description": "useful package to make log",
+  "main": "index.js",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "util": "^0.12.3"
+  },
+  "devDependencies": {},
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zexal0807/runtheons-logger.git"
+  },
+  "author": "Zexal0807",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Zexal0807/runtheons-logger/issues"
+  },
+  "homepage": "https://github.com/Zexal0807/runtheons-logger#readme"
+}
