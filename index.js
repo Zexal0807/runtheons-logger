@@ -11,7 +11,7 @@ module.exports = new class logger {
         }
 
         if (!fs.existsSync(path)) {
-            fs.mkdirSync(path);
+            fs.mkdirSync(path, { recursive: true });
         }
         path += new Date().toISOString().slice(0, 10) + '.txt';
 
